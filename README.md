@@ -15,9 +15,9 @@ Model:数据 View:视图—与用户交互的桥梁 Viewmodel:行为-数据转�
 
 ## 核心原理
 
-* ：基于Object.defineProporty(obj,prop,descriptor)实现对数据的get、set定义和代理
-* ：事件绑定:addEventlistener
-* ：观察者模式 
+* 基于Object.defineProporty(obj,prop,descriptor)实现对数据的get、set定义和代理
+* 事件绑定:addEventlistener
+* 观察者模式 
      定义Subject为主题对象 observer为观察者 subject可以addObserver、removeObserver、notify来操作观察者,observer在subscribeTo主题后，主题调用notify——observer实现update
      
 
